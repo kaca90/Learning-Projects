@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*---------------------First div--------------------------------*/
+
+/*img*/
+.div1 {
+    background-image: url("../images/city.jpg");
+    z-index: 0;
+    height: 500px;
+}
+
+/*div .over with color*/
+.over {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-color: #080c1a;
+    opacity: 0.6;
+}
+
+/*nav*/
+nav {
+    position: absolute;
+    top: 0;
+    width: 80%; 
+    left: 10%; 
+}
+
+.nav-right {
+    float: right;
+}
+
+.nav-left, .nav-right {
+    display: inline-block;
+    padding-top: 20px;
+    color: white;  
+}
+
+
+li {
+    display: inline-block;  
+}
+
+.li1, .li2 {
+    padding-right: 50px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/*div .welcome and button*/
+.welcome {
+    position: absolute;
+    text-align: center;
+    font-size: 36px;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+p {
+    color: white;
+}
+
+.button-div1 {
+    border: 1px solid #00ff7f;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 10px 25px;
+    margin-top: 150px;
+    color: springgreen;
+}
+
+.button-div1:hover{
+    background-color: rgba(37, 245, 151, 0.767);
+    color: white;
+}
+
+
+
+/*line below the menu in div with class .line*/
+.line {
+    border-bottom: 2px solid white;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    height: 5px;
+    padding-top: 80px;
+}
+
+/*---------------------Second div--------------------------------*/
+/*div with class .div2*/
+.div2 {
+    width: 60%;
+    margin-left: 20%;
+    height: 540px;
+    text-align: center;
+}
+
+.div2 p,h1 {
+    color: black;
+    padding-top: 20px;
+}
+
+
+/*div .round-img1 and div .round-img2*/
+.round-img1, .round-img2 {
+    display: inline-block; 
+    height: 500px;
+    /* width: 300px; */
+    padding-top: 50px;
+}
+
+.round-img1 {
+    float: left;
+}
+.round-img2 {
+    float: right;
+}
+
+img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    filter: grayscale(100%); 
+}
+
+/*buttons in div2*/
+.buttons-div2 {
+    margin-top: 30px;
+    border: 1px solid #00ff7f;
+    border-radius: 20px;
+    padding: 10px 25px;
+    background-color: white;
+    color: springgreen;
+}
+
+
+.buttons-div2:hover{
+    background-color: rgba(37, 245, 151, 0.767);
+    color: white;
+}
+
+
+
+/*---------------------Third div--------------------------------*/
+.div3 {
+    height: 450px;
+    width: 100%;
+    background-color: rgb(147, 206, 155); 
+}
+
+form {
+    padding-top: 20px;
+    margin-left: 10%;
+    width: 80%;
+}
+
+/*divs*/
+.name, .email { 
+    width: 49%; 
+    float: left;
+}
+
+.name {
+    margin-right: 1%;
+}
+
+.email {
+    margin-left: 1%;
+}
+
+.t-area {
+    width: 100%;
+}
+
+input,textarea {
+    width: 100%; 
+    background-color: rgb(147, 206, 155);
+    border: 1px solid white;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+/*the distance of the text-area from the label*/
+textarea {
+    padding: 50px;
+    margin: 10px 0px;
+}
+
+/*text-area text in the placeholder raised above */
+.t-area textarea {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: white;
+}
+
+/*text in placeholder colored in white*/
+input::placeholder, textarea::placeholder {
+    color: white;
+}
+
+.div3 h1 {
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+
+/*button div3*/
+.form-button {
+    background-color: rgb(147, 206, 155);
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 25px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.form-button:hover{
+    background-color: white;
+    color:rgb(147, 206, 155);
+}
