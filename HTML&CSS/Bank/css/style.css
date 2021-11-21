@@ -1,64 +1,75 @@
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-    background-color: rgb(248, 235, 194);
-    font-family: 'Lucida Sans', Verdana, sans-serif;
+  background-color: rgb(248, 235, 194);
+  font-family: "Lucida Sans", Verdana, sans-serif;
 }
 
-.second-row {
-    width: 100%;
-    display: inline-block;
+.row {
+  width: 100%;
 }
 
-header, li, footer {
-    background-color: rgb(97, 91, 86);
-    color: white;
+header,
+li,
+footer {
+  background-color: rgb(97, 91, 86);
+  color: white;
 }
 
 header h1 {
-    font-size: 34x;
+  font-size: 34x;
+  text-align: center;
 }
 
 li {
-    padding: 12px;
-    margin: 10px;
+  padding: 12px;
+  margin: 10px;
 }
 
-
-.second-row li:hover{
-    background-color: rgb(189, 167, 96);
+.second-row li:hover {
+  background-color: rgb(189, 167, 96);
 }
 
-header, footer {
-    padding: 15px;
+header,
+footer {
+  padding: 15px;
 }
 
-
-/*float: left to each element separately within the second row*/ 
-nav, section, aside {
-    float: left;
+/*float: left to each element separately within the second row*/
+nav,
+section,
+aside {
+  float: left;
 }
 
 aside {
-    text-align: center;
-    padding: 12px;
+  text-align: center;
+  padding: 12px;
 }
 
-section{
-    padding: 12px;
+aside img {
+  max-width: 100%;
 }
 
-section h1{
-    padding: 5px 0px;
+section {
+  padding: 12px;
+}
+
+section img {
+  max-width: 100%;
+}
+
+section h1 {
+  padding: 5px 0px;
 }
 
 /* Footer */
 footer {
-    text-align: center;
-    position: fixed;
-    bottom: 0px;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
 }
