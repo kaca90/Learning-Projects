@@ -39,8 +39,17 @@
     }
   }
 
-  .contact__list {
-    grid-template-columns: auto auto;
+  .contact {
+    &__list {
+      grid-template-columns: auto auto;
+    }
+
+    &__email,
+    &__locaton {
+      p {
+        font-size: 22px;
+      }
+    }
   }
 }
 
@@ -52,8 +61,26 @@
       grid-template-columns: auto auto auto;
     }
   }
-  .about__bio-image {
-    height: 40vh;
+  .about {
+    &__bio-image {
+      height: 40vh;
+    }
+
+    .bio{
+      p{
+        font-size: 18px;
+      }
+  
+    }
+  }
+
+  .contact {
+    &__email,
+    &__locaton {
+      p {
+        font-size: 28px;
+      }
+    }
   }
 }
 
@@ -63,5 +90,12 @@
     height: 50vh;
   }
 
-  
+  .about {
+    .bio{
+      p{
+        font-size: 18px;
+      }
+    }
+  }
+
 }

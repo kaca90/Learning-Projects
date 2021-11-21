@@ -224,6 +224,10 @@
   grid-gap: 2rem;
 }
 
+.about .bio p {
+  font-size: 16px;
+}
+
 .about .bio__tech {
   background: #414141;
   padding: 0.5rem;
@@ -235,9 +239,9 @@
 }
 
 .about .bio__tech button {
-  border: 2px solid #fff;
+  border: none;
   border-radius: 5px;
-  padding: 5px;
+  padding: 7px;
   margin: 5px;
   font-weight: bold;
 }
@@ -287,7 +291,7 @@
   margin-bottom: 2rem;
 }
 
-.projects .bgd {
+.projects .bgd2 {
   background: #414141;
   padding: 0.1rem;
 }
@@ -345,12 +349,14 @@
   background: #ff652f;
   opacity: 0.9;
   height: 40px;
-  position: relative;
-  border: 1px solid #272727;
+  border: none;
   color: #fff;
   font-size: 16px;
   padding: 10px;
-  margin: 20px 20px 0px 110px;
+  position: relative;
+  top: 20px;
+  bottom: 0;
+  left: 5%;
 }
 
 .projects__btns {
@@ -415,7 +421,7 @@
 }
 
 .contact h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 2rem;
 }
 
@@ -426,6 +432,11 @@
       grid-template-columns: 1fr;
   grid-gap: 2rem;
   font-size: 1.5rem;
+}
+
+.contact__email p, .contact__locaton p {
+  font-size: 18px;
+  padding: 5px 5px 5px 0;
 }
 
 .contact .social-icons {
@@ -471,6 +482,9 @@
     -ms-grid-columns: auto auto;
         grid-template-columns: auto auto;
   }
+  .contact__email p, .contact__locaton p {
+    font-size: 22px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -483,11 +497,20 @@
   .about__bio-image {
     height: 40vh;
   }
+  .about .bio p {
+    font-size: 18px;
+  }
+  .contact__email p, .contact__locaton p {
+    font-size: 28px;
+  }
 }
 
 @media screen and (min-width: 1600px) {
   .projects__bio-image {
     height: 50vh;
+  }
+  .about .bio p {
+    font-size: 18px;
   }
 }
 

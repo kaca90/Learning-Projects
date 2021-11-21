@@ -22,7 +22,7 @@
     }
   }
 
-  .bgd {
+  .bgd2 {
     background: lighten($primary-color, 10%);
     padding: 0.1rem;
   }
@@ -78,12 +78,14 @@
     background: $secondary-color;
     opacity: 0.9;
     height: 40px;
-    position: relative;
-    border: 1px solid ($primary-color);
+    border: none;
     color: #fff;
     font-size: 16px;
     padding: 10px;
-    margin: 20px 20px 0px 110px;
+    position: relative;
+    top: 20px;
+    bottom: 0;
+    left: 5%;
   }
 
   &__btns {
