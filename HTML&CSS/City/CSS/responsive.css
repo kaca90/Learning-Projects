@@ -37,6 +37,11 @@
         width: 100%;
     }
 
+    .button-div1{
+        position: relative;
+        bottom: 50px;
+    }
+
     .li1,.li2,.li3{
         width: 26.66%;
     }
