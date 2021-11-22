@@ -1,41 +1,63 @@
-body{
-    margin: 0;
-    font-size: 22px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-h1{
-    margin-left: 10px;
-    color: dodgerblue;
+
+body {
+  font-size: 22px;
 }
-ul{
-    padding-inline-start: 0px;
+
+main {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
 }
-li{
-    list-style-type: none;
-    background-color: lightblue;
-    margin: 10px;
-    padding: 10px;
-    width: 270px;
-    border: 1px dotted blue;
+
+h1 {
+  color: dodgerblue;
+  text-align: center;
+  padding: 5px;
 }
-li:hover{
-    background-color: dodgerblue;
-    cursor: pointer;
+
+ul {
+  padding-inline-start: 0px;
 }
-button{
-    font-size: 22px;
-    width: 290px;
-    margin: 10px;
-    padding: 10px;
-    background-color: dodgerblue;
+
+li {
+  list-style-type: none;
+  background-color: lightblue;
+  padding: 10px;
+  width: 100%;
+  border: 1px dotted blue;
 }
-button:hover{
-    background-color: lightblue;
+
+li:hover {
+  background-color: dodgerblue;
+  cursor: pointer;
 }
-#enter{
-    font-size: 22px;
-    width: 277px;
+
+button {
+  font-size: 22px;
+  width: 100%;
+  padding: 10px;
+  background-color: dodgerblue;
 }
-input{
-    margin: 10px;
-    padding-left:10px;  
+
+button:hover {
+  background-color: lightblue;
+}
+
+#enter {
+  font-size: 22px;
+  width: 100%;
+}
+
+input {
+  padding: 10px;
+}
+
+#addToStart, #addToEnd{
+    margin: 15px 0 0 15px;
 }
