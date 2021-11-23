@@ -71,6 +71,9 @@
 
 /*For desktops from 950px to 1440px*/
 @media only screen and (min-width: 950px) and (max-width: 1440px) {
+  .between {
+    font-size: 1.5rem;
+  }
 }
 
 /* For devices from 1441px and up */
