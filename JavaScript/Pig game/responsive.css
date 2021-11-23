@@ -1,0 +1,67 @@
+/* For mobile devices */
+@media only screen and (max-width: 649px) {
+  html {
+    font-size: 50%;
+  }
+
+  .player {
+    padding: 2rem;
+  }
+
+  .current-label {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+    padding: 0.1rem 1rem;
+  }
+
+  .btn--new {
+    top: 15rem;
+  }
+
+  .btn--roll {
+    top: 38rem;
+  }
+
+  .dice {
+    width: 60px;
+    height: 60px;
+    top: 25rem;
+  }
+
+  .btn--hold {
+    top: 43rem;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+}
+
+/* For tablets*/
+@media only screen and (min-width: 650px) {
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .btn--new {
+    margin-top: 50px;
+  }
+
+  .current-label {
+    font-size: 1.5rem;
+  }
+}
+
+/*For desktops from 950px to 1440px*/
+@media only screen and (min-width: 950px) and (max-width: 1440px) {
+}
+
+/* For devices from 1441px and up */
+@media only screen and (min-width: 1441px) {
+  html {
+    font-size: 100%;
+  }
+}
