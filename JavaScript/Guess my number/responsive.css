@@ -1,0 +1,109 @@
+/* For mobile devices */
+@media only screen and (max-width: 649px) {
+    header h1 {
+        font-size: 1.8rem;
+      }
+      .between {
+        font-size: 0.9rem;
+      }
+      .again {
+        font-size: 0.6rem;
+        padding: 0.5rem 0.8rem;
+        top: 1rem;
+        left: 1rem;
+      }
+      .number {
+        font-size: 4rem;
+        width: 10rem;
+        padding: 1rem 0rem;
+      }
+      .guess{
+          font-size: 3rem;
+        width: 12rem;
+      }
+      .btn{
+          font-size: 1.3rem;
+          padding: 1.2rem 1.8rem;
+      }
+      .message{
+          font-size: 1.3rem;
+          margin-bottom: 7rem;
+      }
+    .label-score,.score,.label-highscore,.highscore {
+        font-size: 1rem;
+      }
+}
+
+/* For tablets*/
+@media only screen and (min-width: 650px) {
+  header h1 {
+    font-size: 3rem;
+  }
+  .between {
+    font-size: 1rem;
+  }
+  .again {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    top: 1rem;
+    left: 1rem;
+  }
+  .number {
+    font-size: 4rem;
+    width: 10rem;
+    padding: 1rem 0rem;
+  }
+  .guess{
+      font-size: 4rem;
+    width: 20rem;
+  }
+  .btn{
+      font-size: 1.5rem;
+  }
+  .message{
+      font-size: 2rem;
+      margin-bottom: 5rem;
+  }
+.label-score,.score,.label-highscore,.highscore {
+    font-size: 2rem;
+  }
+}
+
+/*For desktops from 950px to 1440px*/
+@media only screen and (min-width: 950px) and (max-width: 1440px) {
+}
+
+/* For devices from 1441px and up */
+@media only screen and (min-width: 1441px) {
+    header h1 {
+        font-size: 6rem;
+      }
+      .between {
+        font-size: 3rem;
+      }
+      .again {
+        padding: 2rem 4rem;
+        top: 5rem;
+        left: 5rem;
+      }
+      .number {
+        font-size: 6rem;
+        width: 20rem;
+        padding: 4rem 0rem;
+      }
+      .guess{
+          font-size: 6rem;
+        width: 50rem;
+        height: 20rem;
+      }
+      .btn{
+          font-size: 4rem;
+      }
+      .message{
+          font-size: 4rem;
+          margin-bottom: 15rem;
+      }
+    .label-score,.score,.label-highscore,.highscore {
+        font-size: 3rem;
+      }
+}
