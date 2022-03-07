@@ -351,6 +351,11 @@
   padding: 11px;
 }
 
+.projects__item .expense-tracker-img {
+  height: 65%;
+  width: 55%;
+}
+
 .projects__info {
   background: #ff652f;
   opacity: 0.9;
