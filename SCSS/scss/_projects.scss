@@ -65,21 +65,21 @@
 
     &:hover {
       &::after {
-        top: calc(1.17em + 19px);;
+        top: calc(1.17em + 19px);
         opacity: 0.9;
       }
       .projects__btn {
         opacity: 1;
       }
     }
-
-    .description {
-      font-size: 14px;
-      text-align: left;
-      padding: 11px;
-    }
   }
 
+  .description {
+    font-size: 14px;
+    text-align: left;
+    padding: 11px;
+  }
+  
   &__info {
     background: $secondary-color;
     opacity: 0.9;
