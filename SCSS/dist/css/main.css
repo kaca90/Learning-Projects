@@ -345,6 +345,12 @@
   opacity: 1;
 }
 
+.projects__item .description {
+  font-size: 14px;
+  text-align: left;
+  padding: 11px;
+}
+
 .projects__info {
   background: #ff652f;
   opacity: 0.9;
