@@ -28,14 +28,15 @@
   .projects {
     &__bio-image {
       height: 40vh;
+
+      .projects__bio-text {
+        display: none;
+      }
     }
 
     &__items {
       display: grid;
       grid-template-columns: auto auto;
-    }
-    .text-secondary {
-      font-size: 3rem;
     }
   }
 
@@ -56,21 +57,27 @@
 //lg
 @include media-lg {
   .projects {
+    &__bio-image {
+      .projects__bio-text {
+        display: none;
+      }
+    }
+
     &__items {
       display: grid;
       grid-template-columns: auto auto auto;
     }
   }
+
   .about {
     &__bio-image {
       height: 40vh;
     }
 
-    .bio{
-      p{
+    .bio {
+      p {
         font-size: 18px;
       }
-  
     }
   }
 
@@ -86,16 +93,20 @@
 
 //xl
 @include media-xl {
-  .projects__bio-image {
-    height: 50vh;
-  }
-
-  .about {
-    .bio{
-      p{
-        font-size: 18px;
+  .projects {
+    &__bio-image {
+      height: 50vh;
+      .projects__bio-text {
+        display: none;
       }
     }
   }
 
+  .about {
+    .bio {
+      p {
+        font-size: 18px;
+      }
+    }
+  }
 }

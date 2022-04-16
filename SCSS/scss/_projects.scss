@@ -16,8 +16,8 @@
     align-items: center;
     justify-content: flex-end;
 
-    .text-secondary {
-      font-size: 2rem;
+    .projects__bio-text {
+      font-size: 1.3rem;
       margin-bottom: 2rem;
     }
   }
@@ -77,11 +77,6 @@
       font-size: 14px;
       text-align: left;
       padding: 11px;
-    }
-
-    .expense-tracker-img {
-      height: 65%;
-      width: 55%;
     }
   }
 

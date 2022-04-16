@@ -286,8 +286,8 @@
           justify-content: flex-end;
 }
 
-.projects__bio-image .text-secondary {
-  font-size: 2rem;
+.projects__bio-image .projects__bio-text {
+  font-size: 1.3rem;
   margin-bottom: 2rem;
 }
 
@@ -349,11 +349,6 @@
   font-size: 14px;
   text-align: left;
   padding: 11px;
-}
-
-.projects__item .expense-tracker-img {
-  height: 65%;
-  width: 55%;
 }
 
 .projects__info {
@@ -480,14 +475,14 @@
   .projects__bio-image {
     height: 40vh;
   }
+  .projects__bio-image .projects__bio-text {
+    display: none;
+  }
   .projects__items {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: auto auto;
         grid-template-columns: auto auto;
-  }
-  .projects .text-secondary {
-    font-size: 3rem;
   }
   .contact__list {
     -ms-grid-columns: auto auto;
@@ -499,6 +494,9 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .projects__bio-image .projects__bio-text {
+    display: none;
+  }
   .projects__items {
     display: -ms-grid;
     display: grid;
@@ -519,6 +517,9 @@
 @media screen and (min-width: 1600px) {
   .projects__bio-image {
     height: 50vh;
+  }
+  .projects__bio-image .projects__bio-text {
+    display: none;
   }
   .about .bio p {
     font-size: 18px;
