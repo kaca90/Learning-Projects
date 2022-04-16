@@ -266,7 +266,7 @@
 }
 
 .projects__bio-image {
-  height: 30vh;
+  height: 100px;
   width: 100%;
   background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.jpg") center top;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg") center top;
@@ -473,7 +473,7 @@
     font-size: 1.5rem;
   }
   .projects__bio-image {
-    height: 40vh;
+    height: 200px;
   }
   .projects__bio-image .projects__bio-text {
     display: none;
