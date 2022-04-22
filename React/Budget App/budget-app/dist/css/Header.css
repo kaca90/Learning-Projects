@@ -1,0 +1,64 @@
+.header {
+  width: 100%;
+  text-align: center;
+  background-image: url("../../../public/1.jpg");
+  color: #f5f0f0;
+  padding: 100px;
+  background-size: 100%;
+}
+
+.header__container {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.header__current-balance p {
+  padding: 12px;
+  font-size: 32px;
+}
+
+.header__income {
+  height: 40px;
+  padding: 10px;
+  background-color: #1d3ef8;
+  width: 350px;
+}
+
+.header__income .income-text {
+  float: left;
+}
+
+.header__income .income-amount {
+  float: right;
+  margin-right: 50px;
+}
+
+.header__expenses {
+  margin-top: 10px;
+  height: 40px;
+  padding: 10px;
+  background-color: #d62121;
+  width: 350px;
+}
+
+.header__expenses .expenses-text {
+  float: left;
+}
+
+.header__expenses .expenses-amount {
+  margin-left: 107px;
+}
+
+.header__expenses .expenses-percent {
+  float: right;
+  padding: 2px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  border-radius: 3px;
+  font-size: 12px;
+  margin-right: 3px;
+}
+/*# sourceMappingURL=Header.css.map */

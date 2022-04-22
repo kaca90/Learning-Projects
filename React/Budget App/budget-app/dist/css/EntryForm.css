@@ -1,0 +1,50 @@
+.entry-form {
+  width: 100%;
+  background-color: #e7f1f1;
+  padding: 25px;
+  border-bottom: 1px solid #a6c9a6;
+}
+
+.entry-form__container {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.entry-form__select-symbol {
+  padding: 8px;
+  outline: none;
+  border: 1px solid #a6c9a6;
+}
+
+.entry-form input {
+  margin-left: 10px;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #a6c9a6;
+  border-radius: 4px;
+}
+
+.entry-form__amount {
+  width: 90px;
+}
+
+.entry-form__submit-btn {
+  padding: 5px;
+  border-radius: 50%;
+  color: white;
+  border: none;
+  margin-left: 15px;
+  width: 25px;
+  height: 25px;
+}
+
+.entry-form .plus-green {
+  background-color: green;
+}
+
+.entry-form .minus-red {
+  background-color: #d62121;
+}
+/*# sourceMappingURL=EntryForm.css.map */

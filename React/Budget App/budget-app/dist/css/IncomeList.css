@@ -1,0 +1,32 @@
+.income-list {
+  float: left;
+  padding: 50px 25px 75px 170px;
+  width: 50%;
+}
+
+.income-list h4 {
+  color: blue;
+  font-weight: 500;
+  padding: 10px;
+  border-bottom: 1px solid #a6c9a6;
+}
+
+.income-list li {
+  padding: 10px;
+  list-style: none;
+  border-bottom: 1px solid #a6c9a6;
+}
+
+.income-list li:nth-child(2n + 2) {
+  background-color: #e7f1f1;
+}
+
+.income-list__text {
+  color: #1c9e57;
+}
+
+.income-list__amount {
+  float: right;
+  color: blue;
+}
+/*# sourceMappingURL=IncomeList.css.map */

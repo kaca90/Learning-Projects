@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,6CAA6C",
+    "sources": [
+        "../../src/config.scss"
+    ],
+    "names": [],
+    "file": "config.css"
+}

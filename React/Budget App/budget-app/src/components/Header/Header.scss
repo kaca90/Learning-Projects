@@ -1,0 +1,67 @@
+.header {
+  width: 100%;
+  text-align: center;
+  background-image: url("../../../public/1.jpg");
+  color: rgb(245, 240, 240);
+  padding: 100px;
+  background-size: 100%;
+
+  &__container {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  // current balance
+  &__current-balance {
+    p {
+      padding: 12px;
+      font-size: 32px;
+    }
+  }
+
+  // income
+  &__income {
+    height: 40px;
+    padding: 10px;
+    background-color: rgb(29, 62, 248);
+    width: 350px;
+
+    .income-text {
+      float: left;
+    }
+
+    .income-amount {
+      float: right;
+      margin-right: 50px;
+    }
+  }
+
+  // expenses
+  &__expenses {
+    margin-top: 10px;
+    height: 40px;
+    padding: 10px;
+    background-color: rgb(214, 33, 33);
+    width: 350px;
+
+    .expenses-text {
+      float: left;
+    }
+
+    .expenses-amount {
+      margin-left: 107px;
+    }
+
+    .expenses-percent {
+      float: right;
+      padding: 2px;
+      border: none;
+      background-color: rgba(255, 255, 255, 0.3);
+      color: white;
+      border-radius: 3px;
+      font-size: 12px;
+      margin-right: 3px;
+    }
+  }
+}

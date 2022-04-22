@@ -1,0 +1,43 @@
+.expenses-list {
+  float: right;
+  padding: 50px 170px 75px 25px;
+  width: 50%;
+}
+
+.expenses-list h4 {
+  color: #d62121;
+  font-weight: 500;
+  padding: 10px;
+  border-bottom: 1px solid #a6c9a6;
+}
+
+.expenses-list li {
+  padding: 10px;
+  list-style: none;
+  border-bottom: 1px solid #a6c9a6;
+}
+
+.expenses-list li:nth-child(2n + 2) {
+  background-color: #e7f1f1;
+}
+
+.expenses-list__text {
+  color: #1c9e57;
+}
+
+.expenses-list__percent {
+  color: #d62121;
+  float: right;
+  padding: 3px;
+  border: none;
+  background-color: rgba(228, 181, 110, 0.808);
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.expenses-list__amount {
+  float: right;
+  margin-right: 10px;
+  color: #d62121;
+}
+/*# sourceMappingURL=ExpensesList.css.map */

@@ -1,0 +1,103 @@
+/*============= MEDIA QUERIES =============*/
+@media screen and (max-width: 767px) {
+  .header {
+    width: 100%;
+  }
+  .header__container {
+    width: 100%;
+  }
+  .header__container h2 {
+    width: 100%;
+    font-size: 20px;
+  }
+  .header__container__current-balance {
+    width: 100%;
+  }
+  .header__container__current-balance p {
+    font-size: 30px;
+  }
+  .header__container .header__income {
+    width: 100%;
+  }
+  .header__container .header__income .income-text {
+    margin-left: 20px;
+  }
+  .header__container .header__income .income-amount {
+    margin-right: 0px;
+    position: absolute;
+    right: 20%;
+  }
+  .header__container .header__expenses {
+    width: 100%;
+  }
+  .header__container .header__expenses .expenses-text {
+    margin-left: 20px;
+  }
+  .header__container .header__expenses .expenses-amount {
+    position: absolute;
+    right: 20%;
+  }
+  .entry-form {
+    width: 100%;
+    height: 180px;
+    padding: 20px;
+  }
+  .entry-form input {
+    margin-left: 0px;
+  }
+  .entry-form__container {
+    width: 80%;
+    margin-top: 70px;
+  }
+  .entry-form__select-symbol {
+    width: 100%;
+  }
+  .entry-form__desc {
+    width: 100%;
+    margin-top: 8px;
+  }
+  .entry-form__amount {
+    width: 100%;
+    margin-top: 8px;
+  }
+  .entry-form__submit-btn {
+    width: 100%;
+    height: 33px;
+    margin-top: 8px;
+    margin-left: 0px;
+    border-radius: 3px;
+  }
+  .transaction-list {
+    width: 100%;
+    height: auto;
+  }
+  .transaction-list .income-list {
+    width: 100%;
+    padding: 20px;
+  }
+  .transaction-list .expenses-list {
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .entry-form {
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+  }
+  .entry-form__container {
+    width: 80%;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .income-list {
+    padding: 50px;
+  }
+  .expenses-list {
+    padding: 50px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

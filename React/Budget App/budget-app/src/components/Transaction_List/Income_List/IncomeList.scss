@@ -1,0 +1,32 @@
+// income
+.income-list {
+  float: left;
+  padding: 50px 25px 75px 170px;
+  width: 50%;
+
+  h4 {
+    color: blue;
+    font-weight: 500;
+    padding: 10px;
+    border-bottom: 1px solid rgb(166, 201, 166);
+  }
+
+  li {
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid rgb(166, 201, 166);
+  }
+
+  li:nth-child(2n + 2) {
+    background-color: rgb(231, 241, 241);
+  }
+
+  &__text {
+    color: rgb(28, 158, 87);
+  }
+
+  &__amount {
+    float: right;
+    color: blue;
+  }
+}

@@ -1,0 +1,12 @@
+@import "./components/Header/Header.scss";
+@import "./components/Entry_Form/EntryForm.scss";
+@import "./components/Transaction_List/TransactionList.scss";
+@import "./responsive.scss";
+@import "./config.scss";
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
